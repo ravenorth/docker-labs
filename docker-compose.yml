@@ -1,0 +1,6 @@
+services:
+  app:
+    container_name: 2048-game
+    image: 2048-game:latest
+    ports:
+      - '5001:8080'
